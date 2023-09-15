@@ -9,8 +9,7 @@ const Blogs = () => {
       .then((data) => setBlogs(data));
   }, []);
   return (
-    <div>
-      {/* <h3>console.log(blogs)</h3> */}
+    <div className="w-2/3">
       <h3>Blog Number: {blogs.length}</h3>
     </div>
   );

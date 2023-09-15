@@ -5,16 +5,17 @@ import Bookmark from "./components/Bookmark/Bookmark";
 import Header from "./components/Header/Header";
 
 function App() {
-  const [bookmarks, setBookmareks] = useState([]);
+  const [bookmarks, setBookmarks] = useState([]);
   const handleAddToBookmark = (blog) => {
-    console.log("bookmark adding soon");
+    const newBookMark = [...bookmarks, blog];
+    setBookmarks(newBookMark);
   };
   return (
     <>
       <Header></Header>
-      <div className="container mx-auto md:flex">
+      <div className="container mx-auto md:flex gap-5">
         <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
-        <Bookmark></Bookmark>
+        <Bookmark bookmarks={bookmarks}></Bookmark>
       </div>
     </>
   );

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/NtVKMWb/1.jpg",
+    "title": "The Art of Cooking",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co/yWjxNxB/boy1.png",
+    "posted_time": "Mar 14 (4 Days ago)",
+    "reading_time": 8,
+    "hashtags": ["cooking", "food", "recipes"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/C56BDXK/2.png",
+    "title": "Exploring the Wilderness",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co/J7RzHxm/boy2.jpg",
+    "posted_time": "Mar 13 (5 Days ago)",
+    "reading_time": 12,
+    "hashtags": ["nature", "adventure", "travel"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/vwwdDnt/3.png",
+    "title": "Web Development Tips",
+    "author": "Sam Brown",
+    "author_img": "https://i.ibb.co/m4hK25W/girl1.jpg",
+    "posted_time": "Mar 12 (6 Days ago)",
+    "reading_time": 6,
+    "hashtags": ["webdev", "coding", "programming"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/TRPcWyT/4.jpg",
+    "title": "Healthy Living Guide",
+    "author": "Emily Green",
+    "author_img": "https://i.ibb.co/1rVYySg/girl2.jpg",
+    "posted_time": "Mar 11 (7 Days ago)",
+    "reading_time": 10,
+    "hashtags": ["health", "wellness", "lifestyle"]
+  }
+]
